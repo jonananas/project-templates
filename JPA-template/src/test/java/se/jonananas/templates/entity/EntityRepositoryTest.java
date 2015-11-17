@@ -33,7 +33,7 @@ public class EntityRepositoryTest {
 	}
 
 	@Test
-	public void shouldStoreAndFindFmeOrder() throws Exception {
+	public void shouldStoreAndFindExampleEntity() throws Exception {
 		entityRepo.store(entity1);
 		assertThat(entityRepo.findById("123")).isEqualTo(entity1);
 	}
